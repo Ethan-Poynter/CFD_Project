@@ -23,7 +23,7 @@ warnings.filterwarnings("ignore")
 icon = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/De_laval_nozzle.svg/640px-De_laval_nozzle.svg.png"
 
 # Streamlit Set Page Config
-st.set_page_config(page_title="Quasi 1D Nozzel CFD", page_icon= icon, initial_sidebar_state="auto")
+st.set_page_config(page_title="Quasi 1D Nozzel CFD", page_layout="wide" , page_icon= icon, initial_sidebar_state="auto")
 
 # Set background color to black and adjust text color
 st.markdown(
