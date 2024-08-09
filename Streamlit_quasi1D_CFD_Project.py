@@ -684,7 +684,7 @@ if page == "MacCormack Technique":
     st.divider()
     col1, col2 = st.columns([1,1])
     with col1:
-        st.subheader("Nondimentionalizing Equations:")
+        st.subheader("Nondimentionalizing  Equations:")
     with col2:
         st.subheader("Nondimentionalized Conservation Equations:")
 
@@ -724,7 +724,7 @@ if page == "MacCormack Technique":
         st.latex(r'''
                 \frac{\partial \rho'}{\partial t'} = -\rho' \frac{\partial u'}{\partial x'} - p'u' \frac{\partial(ln A')}{\partial x'}-u'\frac{\partial \rho'}{\partial x'}
                 ''')
-        st.caption(" Nondimentionalized Equation")
+        st.caption(" Nondimentionalized Momentum Equation")
         st.latex(r'''
                 \frac{\partial u'}{\partial t'} = -u' \frac{\partial u'}{\partial x'} - \frac{1}{\gamma}(\frac{\partial T'}{\partial x'} + \frac{T'}{\rho'}\frac{\partial \rho'}{\partial x'} )
                 ''')
